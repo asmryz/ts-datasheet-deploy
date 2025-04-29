@@ -21,4 +21,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-app.listen(PORT, () => console.log(`server is listening on http://localhost:${PORT}`));
+// app.listen(PORT, () => console.log(`server is listening on http://localhost:${PORT}`));
+
+export default app;
